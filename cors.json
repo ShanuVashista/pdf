@@ -1,7 +1,7 @@
 [
   {
-    "origin": ["*", "https://pdf-mauve.vercel.app/"],
-    "method": ["GET", "POST"],
+    "origin": ["*"],
+    "method": ["GET"],
     "maxAgeSeconds": 3600
   }
 ]
