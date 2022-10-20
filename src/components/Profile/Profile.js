@@ -25,12 +25,12 @@ const ProfilePage = () => {
 
   return (
     <Box display="flex" direction="row" paddingY={2} color={'lightGray'}>
-      <Column span={9}>
+      <Column span={8}>
         <Box padding={3}>
-          <Link to="/" className='profileLink'><Heading size="lg">PDFTron Sign App</Heading></Link>
+          <Link to="/" className='profileLink'><Heading size="lg">PDF Sign App</Heading></Link>
         </Box>
       </Column>
-      <Column span={3}>
+      <Column span={4}>
         <Box padding={1}>
           <Row>
             <Box padding={1}>

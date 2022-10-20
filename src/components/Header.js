@@ -4,7 +4,7 @@ import 'gestalt/dist/gestalt.css';
 
 const Header = () =>  {
     return (<Box display="flex" direction="row" paddingY={2} color={'lightGray'}>
-    <Column span={10}>
+    <Column>
       <Box padding={3}>
         <Heading size="lg">PDF Sign App</Heading>
       </Box>
